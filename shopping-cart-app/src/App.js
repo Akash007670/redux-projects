@@ -4,7 +4,7 @@ import Layout from "./components/Layout/Layout";
 import Products from "./components/Shop/Products";
 import Notification from "./components/UI/Notification";
 import { useSelector, useDispatch } from "react-redux";
-import { sendCartData } from "./store/cart-slice";
+import { sendCartData } from "./store/cart-action";
 // import { toggleAction } from "./store/toggle-cart";
 
 let isInitial = true;
